@@ -1,0 +1,156 @@
+
+.button1 {
+    background-color: gray;
+    color: white;
+    padding: 10px 19px;
+    border: none;
+    margin: 0 6px;
+}
+
+.button2 {
+    background-color: #1b8ad4;
+    color: white;
+    padding: 10px 19px;
+    border: none;
+    margin: 0 6px;
+}
+
+
+.body {
+    height: 100vh; /* Asegura que el body cubra toda la altura de la ventana */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Cambia el color del texto para que sea legible sobre el fondo */
+    transition: background-image 1s ease; /* Transición suave para el fondo */
+
+}
+
+/*importacion CSS secundarios*/ 
+* {
+   margin: 0;
+    padding: 0;
+}
+        
+        .cursor {
+            cursor: pointer;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+        
+        .fondo {
+            background-color: #006aea;
+        }
+        
+        header {
+            padding: 20px;
+        }
+        
+        footer {
+            /*si se quita la posicion fija el pie de pagina dejara de estar al final de la pagina*/
+            position: fixed;
+            padding: 20px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        map {
+            max-width: 100%;
+        }
+
+
+        /* Estilos personalizados */
+        .fondo {
+            background-color: #007bff; /* Color de fondo del encabezado */
+            padding: 20px;
+        }
+
+        .linea-azul {
+            width: 100%;
+            height: 4px;
+            background-color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .imagen-lado {
+            max-width: 100px;
+            margin-right: 100px;
+        }
+
+        .botones-lado {
+            text-align: center;
+            max-width: 50%;
+        }
+
+        /* Estilos básicos para el menú */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            background-color: #007bff;
+            overflow: hidden;
+        }
+        .menu a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #575757;
+            color: white;
+        }
+
+        .logo {
+            max-width: 60px;
+            margin-right: 60px;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap; /* Para que las tarjetas se ajusten en pantallas pequeñas */
+            margin-top: 40px;
+        }
+
+        .profile-item {
+            text-align: center;
+            margin: 15px;
+        }
+        
+         /* diseño de perfiles en circulo */
+        .circle-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+        }
+
+        .profile-item h3 {
+            margin-top: 10px;
+            font-size: 1.25rem;
+        }
+
+        .profile-item p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
